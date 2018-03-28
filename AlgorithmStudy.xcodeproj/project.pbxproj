@@ -19,6 +19,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4E1E209A206BCEA30013B040 /* IndexMaxHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexMaxHeap.h; sourceTree = "<group>"; };
+		4E1E209B206BCEA30013B040 /* IndexMaxHeap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IndexMaxHeap.c; sourceTree = "<group>"; };
+		4E1E209D206BCEA30013B040 /* SkewHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkewHeap.h; sourceTree = "<group>"; };
+		4E1E209E206BCEA30013B040 /* SkewHeap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SkewHeap.c; sourceTree = "<group>"; };
+		4E1E20A0206BCEA30013B040 /* LeftistHeap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeftistHeap.c; sourceTree = "<group>"; };
+		4E1E20A1206BCEA30013B040 /* LeftistHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftistHeap.h; sourceTree = "<group>"; };
 		4E9FEC23206885E30008105F /* AlgorithmStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmStudy; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9FEC2E206886320008105F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		4E9FEC312068876C0008105F /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
@@ -50,6 +56,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E1E2098206BCEA30013B040 /* 堆 */ = {
+			isa = PBXGroup;
+			children = (
+				4E1E2099206BCEA30013B040 /* 索引堆 */,
+				4E1E209C206BCEA30013B040 /* 斜堆 */,
+				4E1E209F206BCEA30013B040 /* 左倾堆 */,
+			);
+			path = "堆";
+			sourceTree = "<group>";
+		};
+		4E1E2099206BCEA30013B040 /* 索引堆 */ = {
+			isa = PBXGroup;
+			children = (
+				4E1E209A206BCEA30013B040 /* IndexMaxHeap.h */,
+				4E1E209B206BCEA30013B040 /* IndexMaxHeap.c */,
+			);
+			path = "索引堆";
+			sourceTree = "<group>";
+		};
+		4E1E209C206BCEA30013B040 /* 斜堆 */ = {
+			isa = PBXGroup;
+			children = (
+				4E1E209D206BCEA30013B040 /* SkewHeap.h */,
+				4E1E209E206BCEA30013B040 /* SkewHeap.c */,
+			);
+			path = "斜堆";
+			sourceTree = "<group>";
+		};
+		4E1E209F206BCEA30013B040 /* 左倾堆 */ = {
+			isa = PBXGroup;
+			children = (
+				4E1E20A0206BCEA30013B040 /* LeftistHeap.c */,
+				4E1E20A1206BCEA30013B040 /* LeftistHeap.h */,
+			);
+			path = "左倾堆";
+			sourceTree = "<group>";
+		};
 		4E9FEC1A206885E30008105F = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				4E9FEC2F2068876C0008105F /* 排序 */,
+				4E1E2098206BCEA30013B040 /* 堆 */,
 				4E9FEC452068876C0008105F /* Helper */,
 				4E9FEC2D206886320008105F /* main */,
 			);
